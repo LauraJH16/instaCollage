@@ -16,6 +16,8 @@ $(document).ready(function() {
     return hh + ':' + ((mm < 10 ? '0' : '') + mm) + ' ' + 'AM'; 
   } 
   $time.append(getTime()); 
+
+
   // Funcionalidad drag and drop 
   $(document).on('dragstart', drag); 
   $(document).on('dragover', permitirDrop); 
@@ -33,4 +35,5 @@ $(document).ready(function() {
       event.target.appendChild(document.getElementById(idFoto)); 
     } 
   }
+  // fin de funcionalidad ddrag and drop
 });

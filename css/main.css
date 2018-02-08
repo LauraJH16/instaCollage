@@ -118,7 +118,7 @@ body.bcg {
 span.line::before {
   display: inline-block;
   height: 1px;
-  margin-right: 35px;
+  margin-right: 2%;
   content: " ";
   background-color: rgba(190, 190, 190, 0.548);
   width: 45%;
@@ -128,7 +128,7 @@ span.line::after {
   display: inline-block;
   height: 1px;
   content: " ";
-  margin-left: 35px;
+  margin-left: 2%;
   background-color: rgba(190, 190, 190, 0.548);
   width: 45%;
 }
