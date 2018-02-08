@@ -1,11 +1,11 @@
-# Cardify
+# InstaCollage
 
 * **Track:** _Common Core_
 * **Curso:** _CONSTRUYE UNA SINGLE PAGE APP (SPA) MULTI-USUARIO CONSUMIENDO DATA REMOTA_
 * **Unidad:** _Ejercicio Drag and drop_
 
 *** 
-[DEMOSTRACION DEL PLUGIN](https://laurajh16.github.io/instaCollage/).
+[PRUEBA EL COLLAGE](https://laurajh16.github.io/instaCollage/).
 
 ***
 ## Plan de Accion
@@ -50,4 +50,4 @@
 
 * [LAURA JIMENEZ](https://github.com/LauraJH16)
 * [MARINA RODRIGUEZ](https://github.com/MarinaRH)
-* [MELINA ](https://github.com/MarinaRH)
+* [MELINA PERNIA ](https://github.com/MelinaPernia)
