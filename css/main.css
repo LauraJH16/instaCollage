@@ -4,6 +4,140 @@
   box-sizing: border-box;
 }
 
-.galeria img {
+/* estilos de header */
+.header {
+  background-color: black;
+  color:white;
+  height: 60px;
+  padding: 10px;
+}
+
+#header-time {
+  font-size: 21px;
+}
+
+.logo-header {
+  width: 160px;
+}
+
+.icon-bat {
+  color: white !important;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.right {
+  float: right;
+}
+/* div de medio */
+.div-middle {
+  background-color: black;
+  color:white;
+  height: 60px;
+  padding: 7px;
+}
+
+/* estilos de collage */
+.collage {
+  background-image: url('../assets/images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 20px 40px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.div-collage {
+  border: 1px solid black;
+  height: 200px;
+  width: 40%;
+  border-radius: 14px;
+  background-color: rgba(252, 247, 247, 0.137);
+  margin: 10px;
+  display: inline-block;
+}
+
+/* estilos para las imagenes  */
+
+.img-galery {
+  display: inline-block;
+  padding-top: 21px;
+}
+
+
+/* estilos de login */
+.center {
+  text-align: center;
+}
+
+.logo {
   width: 300px;
+}
+
+.size {
+  font-size: 19px;
+}
+
+.icon {
+ font-size: 28px;
+}
+::placeholder {
+	color: rgba(145, 141, 141, 0.603) !important; 
+}
+
+form input {
+  background-color:rgba(0, 0, 0, 0.521) !important; 
+  border: none !important;
+  height: 50px;
+  color: white !important;
+}
+
+.btn-login {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.623);
+  border: 1px solid rgb(163, 162, 162);
+  font-weight: 700;
+}
+
+body.bcg {
+  background-image: url('../assets/images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  opacity:0.9;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+span.line::before {
+  display: inline-block;
+  height: 1px;
+  margin-right: 35px;
+  content: " ";
+  background-color: rgba(190, 190, 190, 0.548);
+  width: 45%;
+}
+
+span.line::after {
+  display: inline-block;
+  height: 1px;
+  content: " ";
+  margin-left: 35px;
+  background-color: rgba(190, 190, 190, 0.548);
+  width: 45%;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.493);
+  padding: 10px;
+}
+
+.white {
+  background-color: white;
+}
+
+.red {
+  background-color: rgba(105, 6, 27, 0.603);
+  color: black;
+  padding: 14px;
 }
