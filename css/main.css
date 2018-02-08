@@ -71,6 +71,12 @@ body {
 }
 
 /* estilos de login */
+
+.popover-body {
+  padding: 4px;
+  font-size: 14px;
+  background-color: rgba(160, 8, 59, 0.377);
+}
 .center {
   text-align: center;
 }

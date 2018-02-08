@@ -20,6 +20,7 @@ $(document).ready(function() {
     console.log(REGEXEMAIL.test($(this).val()));
     if (REGEXEMAIL.test($(this).val())) {
       validateEmail = true;
+      $('div.popover').removeClass('show');
       activeButton();
     }
   });
@@ -28,6 +29,7 @@ $(document).ready(function() {
     var REGEXPASS= /^(?=.*[A-Za-z])(?=.*[0-9])[A-Za-z\0-9]{6,}$/;
     if (REGEXPASS.test($(this).val())) {
       validatePassword = true;
+      $('div.popover').removeClass('show');
       activeButton();
     }
   });
@@ -38,4 +40,9 @@ $(document).ready(function() {
     localStorage.password = $password.val();
     window.location.href = 'view/home.html';
   });
+
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+
 });
