@@ -24,10 +24,11 @@
 ## PROCESO
 * La página principal es denominada **index.html** en el cual se encuentra el login.
 
-* El login se encuentra debidammente validado ,se tiene que ingresar en formato de correo,y el password minimo con 6 digitos.Ejemplo:
+* El login se encuentra debidammente validado ,se tiene que ingresar en formato de correo,y el password minimo con 6 digitos,tiene que tener una combinacion entre **MAYUSCULAS,MINUSCULA Y NUMEROS NO CONSECUTIVOS**.
+Ejemplo:
  
  - EMAIL-> maribll@guerra.com
- - PASSWORD-> hydg21
+ - PASSWORD-> hyDg21
 
 * Una vez validado el correo y la contarseña ingresas a la vista **home.htmml** donde localizaras el login con la galeria de images.
 
