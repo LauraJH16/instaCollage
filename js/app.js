@@ -20,20 +20,20 @@ $(document).ready(function() {
 
   // Funcionalidad drag and drop 
   $(document).on('dragstart', drag); 
-  $(document).on('dragover', permitirDrop); 
+  $(document).on('dragover', and); 
   $(document).on('drop', drop); 
   function drag(event) { 
     event.originalEvent.dataTransfer.setData('text', event.target.id); 
   }
-  function permitirDrop(event) { 
+  function and(event) { 
     event.preventDefault(); 
   } 
   function drop(event) { 
     event.preventDefault(); 
     if (event.target.className === 'div-collage') { 
-      let idFoto = event.originalEvent.dataTransfer.getData('text'); 
-      event.target.appendChild(document.getElementById(idFoto)); 
+      var imgCollage = event.originalEvent.dataTransfer.getData('text'); 
+      event.target.appendChild(document.getElementById(imgCollage)); 
     } 
   }
-  // fin de funcionalidad ddrag and drop
+  // fin de funcionalidad drag and drop
 });
