@@ -26,7 +26,7 @@ $(document).ready(function() {
   });
 
   $password.on('input', function() {
-    var REGEXPASS= /^(?=.*[A-Za-z])(?=.*[0-9])[A-Za-z\0-9]{6,}$/;
+    var REGEXPASS = /^(?=.*[A-Za-z])(?=.*[0-9])[A-Za-z\0-9]{6,}$/;
     if (REGEXPASS.test($(this).val())) {
       validatePassword = true;
       $('div.popover').removeClass('show');
